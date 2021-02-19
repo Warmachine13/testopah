@@ -14,7 +14,7 @@ versões utilizadas
 npm: 7.5.4
 node: 15.8.0
 
-<img src="screenshots/1.png">
-<img src="screenshots/2.png">
-<img src="screenshots/3.png">
-<img src="screenshots/4.png">
+<img width="100" src="screenshots/1.png">
+<img width="100" src="screenshots/2.png">
+<img width="100" src="screenshots/3.png">
+<img width="100" src="screenshots/4.png">
