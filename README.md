@@ -2,7 +2,7 @@
 
 ## Introdução
 
-> Projeto criado para o teste para vaga na Livelo, utilizando a api https://swapi.dev/api para pegar dados sobre Filmes e Personagens do Star Wars, utilizei o React native para a construção do app e redux para persistencia de dados com o redux-persist para manter dados offline e animção com react-native-animatable
+> Projeto criado para o teste para vaga na Livelo, utilizando a api https://swapi.dev/api para pegar dados sobre Filmes e Personagens do Star Wars, utilizei o React native para a construção do app e redux para persistencia de dados com o redux-persist para manter dados offline e animação com react-native-animatable
 
 ## Instalação
 
