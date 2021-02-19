@@ -1,9 +1,8 @@
 import axios from 'axios';
-
-import {API_HOST} from 'config/appConfig';
+import {API_HOST} from '@env';
 
 const api = axios.create({
-  baseURL: API_HOST,
+  baseURL: API_HOST.replace("'", ''),
 });
 
 api.interceptors.request.use((config) => {

@@ -1,7 +1,6 @@
 import {combineReducers} from 'redux';
 import {persistReducer} from 'redux-persist';
 import storage from '@react-native-async-storage/async-storage';
-import {persistor} from 'App';
 import films from './films';
 import people from './people';
 
@@ -28,12 +27,4 @@ const appReducer = combineReducers({
   people: persistReducer(peopleConfig, people),
 });
 
-const rootReducer = (state: any, action: any) => {
-  if (action.type === '@auth/LOGOUT') {
-    setTimeout(() => persistor.purge(), 200);
-    state = undefined;
-  }
-  return appReducer(state, action);
-};
-
-export default persistReducer(persistConfig, rootReducer);
+export default persistReducer(persistConfig, appReducer);
