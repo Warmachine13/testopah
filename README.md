@@ -15,8 +15,8 @@ npm: 7.5.4
 node: 15.8.0
 
 <p float="left">
-<img width="100" src="screenshots/1.png">
-<img width="100" src="screenshots/2.png">
-<img width="100" src="screenshots/3.png">
-<img width="100" src="screenshots/4.png">
+<img width="200" src="screenshots/1.png">
+<img width="200" src="screenshots/2.png">
+<img width="200" src="screenshots/3.png">
+<img width="200" src="screenshots/4.png">
 </p>
